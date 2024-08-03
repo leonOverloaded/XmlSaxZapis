@@ -4,6 +4,11 @@
  */
 package leonovo.xmlsaxzapis;
 
+/**
+ * vyukove pasmo IT Network
+ * @author itnetwork.cz
+ */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -45,7 +50,7 @@ public class XmlSaxZapis {
             System.err.println("Chyba pri vytvareni potrebnych adresaru: " + ex.getLocalizedMessage());
         }
         ArrayList<Uzivatel> uzivatele = new ArrayList<>();
-        LocalDate datum1 = LocalDate.of(200,Month.MARCH, 21);
+        LocalDate datum1 = LocalDate.of(2000,Month.MARCH, 21);
         LocalDate datum2 = LocalDate.of(2012, Month.OCTOBER, 30);
         LocalDate datum3 = LocalDate.of(2011, Month.JANUARY, 1);
         uzivatele.add(new Uzivatel("Pavel Slavik", 22, datum1));
